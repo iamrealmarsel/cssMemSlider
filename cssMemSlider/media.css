@@ -1,0 +1,15 @@
+@media (max-width: 767px) {
+  .slider__bottom {
+    flex-direction: column;
+    padding: 1rem 0;
+  }
+
+  .slider__bullets {
+    order: -1;
+    margin-bottom: 1rem;
+  }
+
+  .slider__caption {
+    text-align: center;
+  }
+}

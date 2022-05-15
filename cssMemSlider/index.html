@@ -10,7 +10,56 @@
     <title>cssMemSlider 🎞</title>
   </head>
   <body>
-    <h1>CSS Mem Slider</h1>
-    <p>Здесь будет бомба слайдер! 🤣</p>
+    <main>
+      <h1>CSS Mem Slider</h1>
+      <div class="slider">
+        <input type="radio" name="slide" id="radio_1" checked />
+        <input type="radio" name="slide" id="radio_2" />
+        <input type="radio" name="slide" id="radio_3" />
+        <input type="radio" name="slide" id="radio_4" />
+        <div class="slider__slides">
+          <div class="slider__slide">
+            <img src="images/mem.jpg" alt="mem" />
+          </div>
+          <div class="slider__slide">
+            <img src="images/mem.jpg" alt="mem" />
+          </div>
+          <div class="slider__slide">
+            <img src="images/mem.jpg" alt="mem" />
+          </div>
+          <div class="slider__slide">
+            <img src="images/mem.jpg" alt="mem" />
+          </div>
+        </div>
+        <div class="slider__bottom">
+          <div class="slider__caption">
+            <div class="slider__textList">
+              <div class="slider__text slider__text_1">
+                <p>hello 1</p>
+                <p>world 1</p>
+              </div>
+              <div class="slider__text slider__text_2">
+                <p>hello 2</p>
+                <p>world 2</p>
+              </div>
+              <div class="slider__text slider__text_3">
+                <p>hello 3</p>
+                <p>world 3</p>
+              </div>
+              <div class="slider__text slider__text_4">
+                <p>Молодец, хорошие мемы подобрал</p>
+                <p>Но смеятся я конечно же не буду</p>
+              </div>
+            </div>
+          </div>
+          <div class="slider__bullets">
+            <label class="slider__bullet" for="radio_1"><i></i></label>
+            <label class="slider__bullet" for="radio_2"><i></i></label>
+            <label class="slider__bullet" for="radio_3"><i></i></label>
+            <label class="slider__bullet" for="radio_4"><i></i></label>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
