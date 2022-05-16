@@ -14,7 +14,7 @@ body {
   background-image: url(images/bg.jpg);
   background-size: 100% auto;
   background-position: 0 0;
-  animation: body_bg 20s infinite linear;
+  animation: body_bg 60s infinite linear;
   color: #293241ff;
 }
 
@@ -94,6 +94,7 @@ main {
   flex-direction: column;
   width: 100%;
   max-width: 61rem;
+  box-shadow: 0 0 7px 0 #2d3f63;
   overflow-x: hidden;
 }
 
@@ -109,6 +110,7 @@ main {
   align-items: center;
   flex-shrink: 0;
   width: 12.5%;
+  padding: 1rem;
   padding-bottom: 0;
 }
 
@@ -116,6 +118,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 1rem;
 }
 
 .slider__bullets {
