@@ -1,6 +1,6 @@
 @media (max-width: 767px) {
   main {
-    padding: 1rem 0;
+    padding: 1rem 0.5rem;
   }
 
   .slider__bottom {
