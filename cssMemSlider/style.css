@@ -9,9 +9,19 @@
 }
 
 body {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   min-width: 20rem;
-  background-color: lightcyan;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-image: url(images/bg.jpg);
+  background-size: 100% auto;
+  background-position: 0 0;
+  animation: body_bg 20s infinite linear;
+  color: #293241ff;
+}
+
+@keyframes body_bg {
+  to {
+    background-position: 100vw 0;
+  }
 }
 
 main {
@@ -85,17 +95,12 @@ main {
   width: 100%;
   max-width: 61rem;
   overflow-x: hidden;
-
-  outline: red solid 1px;
 }
 
 .slider__slides {
   display: flex;
   width: 800%;
-  margin-bottom: 1rem;
   transition: transform 0.5s;
-
-  outline: green solid 1px;
 }
 
 .slider__slide {
@@ -104,6 +109,7 @@ main {
   align-items: center;
   flex-shrink: 0;
   width: 12.5%;
+  padding-bottom: 0;
 }
 
 .slider__bottom {
