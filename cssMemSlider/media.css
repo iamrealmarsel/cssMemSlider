@@ -1,11 +1,11 @@
 @media (max-width: 767px) {
   main {
     padding: 1rem 0.5rem;
+    min-height: 35rem;
   }
 
   .slider__bottom {
     flex-direction: column;
-    padding: 1rem 0;
   }
 
   .slider__bullets {
