@@ -1,0 +1,21 @@
+@media (max-width: 767px) {
+  main {
+    padding: 1rem 0.5rem;
+    min-height: 35rem;
+  }
+
+  .slider__bottom {
+    flex-direction: column;
+  }
+
+  .slider__bullets {
+    --step: 2.2rem;
+    order: -1;
+    margin-bottom: 1rem;
+    column-gap: 0.2rem;
+  }
+
+  .slider__caption {
+    text-align: center;
+  }
+}
